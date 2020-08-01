@@ -63,8 +63,28 @@
 //   }
 // };
 // console.log(contar(5));
+
 //TAG: Date
 // const data = new Date();
 // console.log(data.getDate());
 // console.log(data.getMonth());
 // console.log(data.getDay());
+
+//TODO: Aula04 Desenvolva páginas com JavaScript
+
+//TAG: Function
+// const somar = (numero1, numero2) => {
+//   return numero1 + numero2;
+// };
+// 
+// const trocarFrase = (frase, novaFrase) => {
+//   return frase.replace(frase, novaFrase);
+// };
+// 
+// const validarIdade = (idade) => {
+//   return idade >= 18;
+// };
+// 
+// console.log(validarIdade(17) ? "maior de idade" : "menor de idade");
+// console.log(somar(5, 10));
+// console.log(trocarFrase("Vai Japão", "Vai Brasil"));
