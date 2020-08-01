@@ -35,3 +35,32 @@
 // console.log(frutas);
 // console.log(frutas[0])
 // console.log(frutas[0].nome)
+
+//TODO: Aula03 Condicionais, Laços, e Date
+
+//TAG: Condicionais
+// let idade = 18;
+// if (idade >= 18) {
+//   console.log("maior de idade");
+// } else {
+//   console.log("menor de idade");
+// }
+// const idade = 17;
+// const consultarIdade = (idade) => {
+//   return idade >= 18 ? "maior de idade" : "menor de idade";
+// };
+// console.log(consultarIdade(idade));
+
+//TAG: Laços
+// let count = 0;
+// while (count < 5) {
+//   console.log(count);
+//   count += 1;
+// }
+// const contar = (max) => {
+//   for (let i = 0; i < max; i++) {
+//     console.log(i);
+//   }
+// };
+// console.log(contar(5));
+//FIXME: Continuar Aula03 04:08
