@@ -63,4 +63,8 @@
 //   }
 // };
 // console.log(contar(5));
-//FIXME: Continuar Aula03 04:08
+//TAG: Date
+// const data = new Date();
+// console.log(data.getDate());
+// console.log(data.getMonth());
+// console.log(data.getDay());
