@@ -6,5 +6,21 @@
     <script type="text/javascript" src="js/main.js"></script>
     <title>Document</title>
   </head>
-  <body></body>
+  <body onload="carregado()">
+    <h1>Minha página</h1>
+    <div id="nave">
+      <button type="button" onclick="agradecer()">Acionar</button>
+      <button id="redirecionar" onclick="redirecionar()">Redirecionar</button>
+      <button id="trocar" onmouseover="trocar(this)" onmouseout="voltar(this)">
+        Trocar
+      </button>
+      <h3 id="agradecer"></h3>
+
+      <select onchange="funcao(this)">
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+      </select>
+    </div>
+  </body>
 </html>
